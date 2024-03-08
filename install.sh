@@ -36,7 +36,7 @@ function checkRequirement () {
 }
 
 checkRequirement "wget"
-checkRequirement "unzip"
+checkRequirement "7z"
 
 info "Trying to find the correct directory..."
 for path in "${paths[@]}"; do

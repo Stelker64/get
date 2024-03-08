@@ -73,7 +73,7 @@ if [ -n "$haPath" ]; then
     mkdir "$haPath/custom_components/hacs"
 
     info "Unpacking HACS..."
-    unzip "$haPath/custom_components/hacs.zip" -d "$haPath/custom_components/hacs" >/dev/null 2>&1
+    7z e "$haPath/custom_components/hacs.zip" -o "$haPath/custom_components/hacs" >/dev/null 2>&1
 
 
     echo
